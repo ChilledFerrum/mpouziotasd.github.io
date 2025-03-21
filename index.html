@@ -2,58 +2,44 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport", content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <title>About Dimitris Mpouziotas</title>
     <link rel="stylesheet" href="csslayout/main.css">
+    <style>
+
+    </style>
 </head>
 <body>
-<h1>Hello World</h1>
 <div class="menubar">
-    This is a sticky environment at the top
+    <nav>
+        <ul class="First">
+            <li class="MyName-Logo">Dimitris Mpouziotas</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Github</a></li>
+            <li><a href="#">LinkedIn</a></li>
+            <li><a href="#">ResearchGate</a></li>
+        </ul>
+    </nav>
 </div>
 
-<div class="highlights">
-    <input type="radio" name="frame" id="frame1" checked />
-    <input type="radio" name="frame" id="frame2" />
-    <input type="radio" name="frame" id="frame3" />
-    <input type="radio" name="frame" id="frame4" />
-    <div id="slides">
-        <div id="overflow">
-            <div class="inner">
-                <div class="frame frame_1">
-                    <div class="frame-content">
-                        <img src="figs/researchgate.jpg", alt="Description">
-                    </div>
-                </div>
-                <div class="frame frame_2">
-                    <div class="frame-content">
-                        <h2>Slide 2</h2>
-                    </div>
-                </div>
-                <div class="frame frame_3">
-                    <div class="frame-content">
-                        <h2>Slide 3</h2>
-                    </div>
-                </div>
-                <div class="frame frame_4">
-                    <div class="frame-content">
-                        <h2>Slide 4</h2>
-                    </div>
-                </div>
-            </div>
+<div class="MainContainer", id="animatedContainer">
+    <div class="row1">
+        <div class="aboutmeimg">
+            <img src="figs/DimitrisMpouziotas.JPEG">
         </div>
-    </div>
-    <div id="controls">
-        <label for="frame1"></label>
-        <label for="frame2"></label>
-        <label for="frame3"></label>
-        <label for="frame4"></label>
-    </div>
-    <div id="bullets">
-        <label for="frame1"></label>
-        <label for="frame2"></label>
-        <label for="frame3"></label>
-        <label for="frame4"></label>
+        
+        
+        <div class="aboutme" style="width: 100%;">
+            <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+        </div>
     </div>
 </div>
 
